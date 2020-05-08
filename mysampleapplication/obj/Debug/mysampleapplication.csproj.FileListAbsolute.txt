@@ -51,8 +51,8 @@ D:\mysampleapp\mysampleapplication\bin\roslyn\VBCSCompiler.exe
 D:\mysampleapp\mysampleapplication\bin\roslyn\VBCSCompiler.exe.config
 D:\mysampleapp\mysampleapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\mysampleapp\mysampleapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.csprojResolveAssemblyReference.cache
 D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.csproj.CoreCompileInputs.cache
 D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.csproj.CopyComplete
 D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.dll
 D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.pdb
+D:\mysampleapp\mysampleapplication\obj\Debug\mysampleapplication.csprojResolveAssemblyReference.cache
