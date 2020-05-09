@@ -9,7 +9,7 @@
 <body style="background-color:green;">
     <form id="form1" runat="server" >
         <div>
-           This is a sample hello world application by balaji for web deploy using jenkins
+           This is a sample hello world application by balaji for web deploy using jenkins -pipeline
         </div>
     </form>
 </body>
