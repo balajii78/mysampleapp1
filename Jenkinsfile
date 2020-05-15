@@ -1,6 +1,6 @@
 pipeline {
-agent          
-  stages
+agent any
+    stages
     {
      stage('Taking code from GIT')  {
 	    steps {
