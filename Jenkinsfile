@@ -5,7 +5,7 @@ agent any
      stage('Taking code from GIT')  {
 	    steps {
 		  echo 'Get sourcecode from git'
-		  git  'https://github.com/balajii78/Mysampleapp.git'
+		  git  'https://github.com/balajii78/mysampleapp.git'
 		}
 	 }
 	 stage('Build using msbuild')  {
