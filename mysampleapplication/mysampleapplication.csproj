@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Jenkinsfile" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\MyPublishProfile.pubxml" />
     <None Include="Web.Debug.config">
@@ -77,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="helloworld.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +88,13 @@
     </Compile>
     <Compile Include="helloworld.aspx.designer.cs">
       <DependentUpon>helloworld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

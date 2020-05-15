@@ -11,7 +11,9 @@ namespace mysampleapplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+                divusername.InnerHtml = "Welcome " + Request.QueryString["username"].ToString();
+                
         }
     }
 }
