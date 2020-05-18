@@ -12,7 +12,7 @@ agent any
 	     //code for msbuild
 	     steps {
 		  echo 'Build using msbuild and deploy code into server'
-		  bat "\"${tool 'msbuildpipeline'}\" mysampleapplication.sln /p:DeployOnBuild=true /p:Configuration=Release /p:AllowUntrustedCertificate=true /p:PublishProfile=MyPublishProfile.pubxml /p:Password=Welcome@123 /p:Username=EC2AMAZ-VI2N1HD\\balaji"
+		  bat "\"${tool 'msbuildpipeline'}\" mysampleapplication.sln /p:DeployOnBuild=true /p:Configuration=Release /p:AllowUntrustedCertificate=true /p:PublishProfile=MyPublishProfile.pubxml /p:Password=Welcome@123 /p:Username=balajiwindows2\\balaji"
 		  
 		}
 	 }
